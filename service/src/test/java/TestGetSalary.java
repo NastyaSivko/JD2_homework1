@@ -23,6 +23,6 @@ public class TestGetSalary {
 
         int result = getSalaryWithoutTax(salary, tax);
 
-        assertEquals(result, 425);
+        assertEquals(result, 850);
     }
 }
