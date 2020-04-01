@@ -1,3 +1,5 @@
+package by.itacademy.utils;
+
 import org.junit.jupiter.api.Test;
 
 import static by.itacademy.utils.CalculatorSalary.calculatorPercent;
