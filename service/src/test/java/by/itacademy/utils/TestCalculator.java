@@ -9,7 +9,12 @@ public class TestCalculator {
 
     @Test
     public void Calculator(){
-        calculatorPercent(520, 10);
+        int salary = 300;
+        int tax = 0;
+
+        int result = calculatorPercent(salary, tax);
+
+        assertEquals(result, 0);
     }
 
     @Test
