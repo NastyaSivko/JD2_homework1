@@ -3,6 +3,3 @@ sudo: false # faster builds
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
-env:
-  global:
-  - CODECOV_TOKEN="ff2ce0e0-30ec-4545-ba85-608f94cea59d"
